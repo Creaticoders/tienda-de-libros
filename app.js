@@ -40,6 +40,7 @@ class Book {
      kart.classList.add('icon-cart')
   	 kart.classList.add('nuevo')
 
+
   	 
   	 // agregando al contenedor los elementos
   	 // metodo appendChild
@@ -50,6 +51,8 @@ class Book {
   	 libro.appendChild(titulo)
   	 libro.appendChild(boton)
   	 boton.appendChild(kart)
+     
+
 
   	 //Parte dos: Click boton
   	 // creación de atributo que nos va a permitir colocar el precio
